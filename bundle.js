@@ -10145,8 +10145,8 @@ function useViewTransitionState(to, opts) {
 // EXTERNAL MODULE: ./node_modules/classnames/bind.js
 var bind = __webpack_require__(967);
 var bind_default = /*#__PURE__*/__webpack_require__.n(bind);
-;// ./src/assets/images/hero.png
-/* harmony default export */ const hero = (__webpack_require__.p + "static/hero.png");
+;// ./src/assets/images/hero.avif
+/* harmony default export */ const hero = (__webpack_require__.p + "static/hero.avif");
 ;// ./src/assets/images/trending.gif
 /* harmony default export */ const trending = (__webpack_require__.p + "static/trending.gif");
 ;// ./src/assets/images/find.gif
@@ -13544,7 +13544,7 @@ var App_update = injectStylesIntoStyleTag_default()()(App/* default */.A, App_op
 
 
 const App_App = () => {
-    return ((0,react_jsx_runtime_production_min_namespaceFn().jsxs)(BrowserRouter, Object.assign({ basename: '/perf-basecamp' }, { children: [(0,react_jsx_runtime_production_min_namespaceFn().jsx)(NavBar_NavBar, {}), (0,react_jsx_runtime_production_min_namespaceFn().jsxs)(Routes, { children: [(0,react_jsx_runtime_production_min_namespaceFn().jsx)(Route, { path: "/", element: (0,react_jsx_runtime_production_min_namespaceFn().jsx)(pages_Home_Home, {}) }), (0,react_jsx_runtime_production_min_namespaceFn().jsx)(Route, { path: "/search", element: (0,react_jsx_runtime_production_min_namespaceFn().jsx)(Search_Search, {}) })] }), (0,react_jsx_runtime_production_min_namespaceFn().jsx)(Footer_Footer, {})] })));
+    return ((0,react_jsx_runtime_production_min_namespaceFn().jsxs)(BrowserRouter, { children: [(0,react_jsx_runtime_production_min_namespaceFn().jsx)(NavBar_NavBar, {}), (0,react_jsx_runtime_production_min_namespaceFn().jsxs)(Routes, { children: [(0,react_jsx_runtime_production_min_namespaceFn().jsx)(Route, { path: "/", element: (0,react_jsx_runtime_production_min_namespaceFn().jsx)(pages_Home_Home, {}) }), (0,react_jsx_runtime_production_min_namespaceFn().jsx)(Route, { path: "/search", element: (0,react_jsx_runtime_production_min_namespaceFn().jsx)(Search_Search, {}) })] }), (0,react_jsx_runtime_production_min_namespaceFn().jsx)(Footer_Footer, {})] }));
 };
 /* harmony default export */ const src_App_0 = (App_App);
 
