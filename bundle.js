@@ -9563,7 +9563,7 @@ var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _argume
 const Home = (0,react.lazy)(() => __awaiter(void 0, void 0, void 0, function* () { return yield __webpack_require__.e(/* import() */ 412).then(() => (__webpack_require__(412))); }));
 const Search = (0,react.lazy)(() => __awaiter(void 0, void 0, void 0, function* () { return yield Promise.all(/* import() */[__webpack_require__.e(87), __webpack_require__.e(918)]).then(() => (__webpack_require__(918))); }));
 const App_App = () => {
-    return ((0,jsx_runtime.jsxs)(dist/* BrowserRouter */.Kd, Object.assign({ basename: '/perf-basecamp' }, { children: [(0,jsx_runtime.jsx)(NavBar_NavBar, {}), (0,jsx_runtime.jsxs)(react_router_dist/* Routes */.BV, { children: [(0,jsx_runtime.jsx)(react_router_dist/* Route */.qh, { path: "/", element: (0,jsx_runtime.jsx)(Home, {}) }), (0,jsx_runtime.jsx)(react_router_dist/* Route */.qh, { path: "/search", element: (0,jsx_runtime.jsx)(Search, {}) })] }), (0,jsx_runtime.jsx)(Footer_Footer, {})] })));
+    return ((0,jsx_runtime.jsx)(react.Suspense, { children: (0,jsx_runtime.jsxs)(dist/* BrowserRouter */.Kd, Object.assign({ basename: '/perf-basecamp' }, { children: [(0,jsx_runtime.jsx)(NavBar_NavBar, {}), (0,jsx_runtime.jsxs)(react_router_dist/* Routes */.BV, { children: [(0,jsx_runtime.jsx)(react_router_dist/* Route */.qh, { path: "/", element: (0,jsx_runtime.jsx)(Home, {}) }), (0,jsx_runtime.jsx)(react_router_dist/* Route */.qh, { path: "/search", element: (0,jsx_runtime.jsx)(Search, {}) })] }), (0,jsx_runtime.jsx)(Footer_Footer, {})] })) }));
 };
 /* harmony default export */ const src_App_0 = (App_App);
 
